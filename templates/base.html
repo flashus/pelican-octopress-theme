@@ -70,7 +70,15 @@
   <script src="{{ SITEURL }}/theme/js/octopress.js" type="text/javascript"></script>
 </head>
 
-<body>
+{% if page %}
+  {% set sidebar = page.sidebar|default("on") %}
+{% elif article %}
+  {% set sidebar = article.sidebar|default("on") %}
+{% else %}
+  {% set sidebar = "on" %}
+{% endif %}
+{% set sidebar = sidebar|string|lower|replace("true", "on")|replace("false", "off") %}
+<body {% if sidebar == "off" %} class="no-sidebar" {% endif %}>
   <header role="banner"
     {% if article and article.header_cover %}
         style="background-image: url('{{ article.header_cover }}')"
