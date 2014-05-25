@@ -10,7 +10,7 @@
     <p class="meta">
       {% include '_includes/article_time.html' %}
       {% include '_includes/article_stats.html' %}
-      {% if DISQUS_SITENAME %} | <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
+      {% if SHOW_DISQUS_COMMENT_COUNT and DISQUS_SITENAME %} | <a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Comments</a>{% endif %}
     </p>
 </header>
 
