@@ -90,6 +90,24 @@ Sidebar
 - ``SITESEARCH``: [default: 'http://google.com/search'] search engine to which
   search form should be pointed (optional)
 
+Controlling Asides
+------------------
+
+- ``ARTICLE_ASIDES``: a list of asides names, controls which asides and order
+  to be displayed on articles. If not set, all available asides will be shown.
+- ``PAGE_ASIDES``: just like above, but for pages.
+- ``INDEX_ASIDES``: just like above, but for the index page.
+
+Individual settings for article or page is available. Just add an ``asides`` in
+the corresponding article or page meta, the value is a list of asides names,
+separated by commas.
+
+Check ``templates/_includes/asides/`` to get the list of available asides. The
+asides name does not contain ``.html``. Example setting::
+
+    ARTICLE_ASIDES = ['recentpost', 'categories', 'tags', 'recentcomment', 'github']
+
+
 Header image or background color
 --------------------------------
 
@@ -127,6 +145,8 @@ Disqus comments
 - ``DISQUS_SITENAME``: (required to enable) set this to the short site identifier
   of your Disqus site. Example:
   ``mrsenko``
+- ``SHOW_DISQUS_COMMENT_COUNT``: set this to ``True`` to show Disqus comments
+  count in article meta paragraph.
 
 Disqus Identifier
 -----------------
@@ -152,6 +172,13 @@ website.
 **NOTE:** comments are displayed only if the article is not a draft and
 ``SITEURL`` is defined (usually is) and either one of ``DISQUS_SITENAME`` or
 ``ISSO_SITEURL`` are defined!
+
+Controlling comments
+--------------------
+
+By default, comments are enabled for all articles and disabled for pages.
+To enable comments for a page, add ``Comments: on`` in page meta.
+To disable comments for an article, add ``Comments: off`` in article meta.
 
 X min read
 ----------
@@ -223,6 +250,13 @@ Full Content
 Display full post content on the index page.
 
 - ``INDEX_FULL_CONTENT``: ``False``
+
+Neighboring Articles
+--------------------
+
+- ``SHOW_ARTICLE_NEIGHBORS``: set this to ``True`` to show "Previous Post" and
+  "Next Post" bellow article content in the article pages. The ``neighbors``
+  plugin is required for this feature.
 
 Contribute
 ----------
