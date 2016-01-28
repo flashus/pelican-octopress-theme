@@ -164,6 +164,13 @@ to enable in each respective channel, your post metadata needs to specify:
 - ``use_open_graph: true``: For Facebook specific meta tags.
 - ``use_twitter_card: true``: For Twitter specific meta tags.
 
+Full Content
+------------
+
+Display full post content on the index page.
+
+- ``INDEX_FULL_CONTENT``: ``False``
+
 Contribute
 ----------
 
