@@ -76,12 +76,20 @@ Google Analytics
 - ``GOOGLE_UNIVERSAL_ANALYTICS_COOKIEDOMAIN``: ``'auto'`` optional cookie domain setting for Google Universal Analytics
 - ``GOOGLE_ANALYTICS_DISPLAY_FEATURES``: ``True`` to enable `Display Advertiser Features <https://support.google.com/analytics/answer/2444872?hl=en&utm_id=ad>`_. This setting works for both Classic Analytics and Universal Analytics.
 
+Sidebar
+-------
+
+- ``DISPLAY_CATEGORIES``: ``False`` show categories
+- ``DISPLAY_TAGS``: ``False`` show tags
+- ``DISPLAY_FEEDS``: ``False`` show feeds in Social section
+
 Sidebar image
 -------------
 
 - ``SIDEBAR_IMAGE``: Adds specified image to sidebar. Example value: "images/author_photo.jpg"
 - ``SIDEBAR_IMAGE_ALT``: Alternative text for sidebar image
 - ``SIDEBAR_IMAGE_WIDTH``: Width of sidebar image
+- ``AUTHOR_ABOUT``: ```` the specified ``SIDEBAR_IMAGE`` is only shown if this is filled.
 
 - ``SEARCH_BOX``: set to true to enable site search box
 - ``SITESEARCH``: [default: 'http://google.com/search'] search engine to which
