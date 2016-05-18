@@ -79,18 +79,13 @@ Google Analytics
 Sidebar
 -------
 
-- ``DISPLAY_CATEGORIES``: ``False`` show categories
-- ``DISPLAY_TAGS``: ``False`` show tags
-- ``DISPLAY_FEEDS``: ``False`` show feeds in Social section
-
-Sidebar image
--------------
-
+- ``DISPLAY_CATEGORIES``: ``True`` show categories
+- ``DISPLAY_TAGS``: ``True`` show tags
+- ``DISPLAY_FEEDS``: ``True`` show feeds in Social section
 - ``SIDEBAR_IMAGE``: Adds specified image to sidebar. Example value: "images/author_photo.jpg"
 - ``SIDEBAR_IMAGE_ALT``: Alternative text for sidebar image
 - ``SIDEBAR_IMAGE_WIDTH``: Width of sidebar image
 - ``AUTHOR_ABOUT``: ```` the specified ``SIDEBAR_IMAGE`` is only shown if this is filled.
-
 - ``SEARCH_BOX``: set to true to enable site search box
 - ``SITESEARCH``: [default: 'http://google.com/search'] search engine to which
   search form should be pointed (optional)

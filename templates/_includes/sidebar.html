@@ -23,7 +23,7 @@
       {% endfor %}
     </ul>
   </section>
-  {% if DISPLAY_CATEGORIES and categories %}
+  {% if DISPLAY_CATEGORIES|default(true) and categories %}
   <section>
     <h1>Categories</h1>
     <ul id="recent_posts">
@@ -34,7 +34,7 @@
   </section>
   {% endif %} 
 
-  {% if DISPLAY_TAGS and tags %}
+  {% if DISPLAY_TAGS|default(true) and tags %}
   <section>
     <h1>Tags</h1>
     {% for tag, article in tags %}

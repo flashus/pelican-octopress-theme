@@ -2,7 +2,7 @@
     <section>
         <h1>Social</h1>
         <ul>
-        {% if DISPLAY_FEEDS %}
+        {% if DISPLAY_FEEDS|default(true) %}
           {% if FEED_RSS %}
             <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate">RSS</a></li>
           {% endif %}
