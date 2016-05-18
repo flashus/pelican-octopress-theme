@@ -95,6 +95,16 @@ Header image or background color
 - ``header_color`` - header background color. Configure as article metadata
 - ``HEADER_COLOR`` - global header background color setting
 
+MailChimp
+--------------
+
+Add a [MailChimp](http://mailchimp.com/) registration form to the bottom of each article.
+
+- ``MAILCHIMP_FORM_ACTION``: URL to be called when the submit button is pressed, required.
+- ``MAILCHIMP_EMAIL_PLACEHOLDER``: placeholder for the email form field, default "email@example.com"
+- ``MAILCHIMP_SUBSCRIBE_BUTTON``: text shown on the subscribe button, default "Subscribe"
+- ``MAILCHIMP_CALL_TO_ACTION``: call-to-action to be shown above the form, default "Get more posts like this:"
+
 QR Code generation
 -------------
 
