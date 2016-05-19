@@ -1,8 +1,9 @@
 Octopress Theme for Pelican
 ===========================
 
-This is a theme for `Pelican`_ that looks like `Octopress`_ default theme. I wrote this
-theme for `my personal blog`_.
+This is a theme for `Pelican`_ that looks like `Octopress`_ default theme. This
+is a fork of `pelican-octopress-theme by Maurizio Sambati`_ which merged all
+pending pull requests.
 
 Why use this theme?
 -------------------
@@ -289,3 +290,4 @@ Authors
 .. _`Mortada Mehyar`: https://github.com/mortada
 .. _`Check the contributors`: https://github.com/duilio/pelican-octopress-theme/graphs/contributors
 .. _`Isso`: http://posativ.org/isso/
+.. _`pelican-octopress-theme by Maurizio Sambati`: https://github.com/duilio/pelican-octopress-theme
