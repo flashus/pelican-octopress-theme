@@ -78,6 +78,7 @@
   {% set sidebar = "on" %}
 {% endif %}
 {% set sidebar = sidebar|string|lower|replace("true", "on")|replace("false", "off") %}
+{% if SHOW_HEADER|default(true) %}
 <body {% if sidebar == "off" %} class="no-sidebar" {% endif %}>
   <header role="banner"
     {% if article and article.header_cover %}
@@ -91,6 +92,7 @@
     {% endif %}
   >
   {% include '_includes/header.html' %}</header>
+{% endif %}
   <nav role="navigation">{% include '_includes/navigation.html' %}</nav>
   <div id="main">
     <div id="content">

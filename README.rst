@@ -9,6 +9,7 @@ pending pull requests from that repository and also merged new features from
 Changelog
 ---------
 
+- Add ``SHOW_HEADER`` setting
 - Merge
 `PR #88 <https://github.com/duilio/pelican-octopress-theme/pull/88>`_ -
 Add header images and background colors. Fixes
@@ -165,6 +166,7 @@ Header image or background color
 - ``HEADER_COVER`` - global header background image setting
 - ``header_color`` - header background color. Configure as article metadata
 - ``HEADER_COLOR`` - global header background color setting
+- ``SHOW_HEADER`` - set this to ``False`` to disable the entire header
 
 MailChimp
 --------------
