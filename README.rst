@@ -140,7 +140,11 @@ Sidebar
 
 - ``DISPLAY_CATEGORIES``: ``True`` show categories
 - ``DISPLAY_TAGS``: ``True`` show tags
-- ``DISPLAY_FEEDS``: ``True`` show feeds in Social section
+- ``DISPLAY_FEEDS``: ``True`` show feeds at the top in Social section. If you
+  want to display the feeds at the bottom (like jjimenez/pelipress did) set
+  this to ``False`` and add a link with name "RSS" and value the relevant URL
+  to ``SOCIAL``. The order in which links are defined is the order in which
+  they will be displayed!
 - ``DISPLAY_SOCIAL_ICONS``: set to ``True`` to display social icon images at
   the top of sidebar. The link name from ``SOCIAL`` matches a FontsAwesome icon
 - ``SIDEBAR_IMAGE``: Adds specified image to sidebar. Example value: "images/author_photo.jpg"
