@@ -58,6 +58,10 @@
         rel="stylesheet" type="text/css">
   <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
         rel="stylesheet" type="text/css">
+  {% if DISPLAY_SOCIAL_ICONS|default(false) %}
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+            rel="stylesheet" type="text/css">
+  {% endif %}
   {% if article and article.latex %}
     {{ article.latex }}
   {% endif %}

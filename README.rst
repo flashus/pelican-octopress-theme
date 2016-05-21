@@ -9,8 +9,15 @@ pending pull requests from that repository and also merged new features from
 Changelog
 ---------
 
+21st May 2016
+
+- Add ``DISPLAY_SOCIAL_ICONS`` setting and the ``social_icons`` sidebar
+inspired by jjimenez/pelipress
 - Add ``FOOTER_INCLUDE`` setting inspired by jjimenezlopez/pelipress
 - Add ``SHOW_HEADER`` setting from jjimenezlopez/pelipress
+
+18th May 2016
+
 - Merge
 `PR #88 <https://github.com/duilio/pelican-octopress-theme/pull/88>`_ -
 Add header images and background colors. Fixes
@@ -134,6 +141,8 @@ Sidebar
 - ``DISPLAY_CATEGORIES``: ``True`` show categories
 - ``DISPLAY_TAGS``: ``True`` show tags
 - ``DISPLAY_FEEDS``: ``True`` show feeds in Social section
+- ``DISPLAY_SOCIAL_ICONS``: set to ``True`` to display social icon images at
+  the top of sidebar. The link name from ``SOCIAL`` matches a FontsAwesome icon
 - ``SIDEBAR_IMAGE``: Adds specified image to sidebar. Example value: "images/author_photo.jpg"
 - ``SIDEBAR_IMAGE_ALT``: Alternative text for sidebar image
 - ``SIDEBAR_IMAGE_WIDTH``: Width of sidebar image
