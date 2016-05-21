@@ -100,7 +100,13 @@
       {% include '_includes/sidebar.html' %}
     </div>
   </div>
-  <footer role="contentinfo">{% include '_includes/footer.html' %}</footer>
+  <footer role="contentinfo">
+  {% if FOOTER_INCLUDE %}
+    {% include FOOTER_INCLUDE %}
+  {% else %}
+    {% include '_includes/footer.html' %}
+  {% endif %}
+  </footer>
   {% include '_includes/after_footer.html' %}
 </body>
 </html>

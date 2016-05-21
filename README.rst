@@ -9,7 +9,8 @@ pending pull requests from that repository and also merged new features from
 Changelog
 ---------
 
-- Add ``SHOW_HEADER`` setting
+- Add ``FOOTER_INCLUDE`` setting inspired by jjimenezlopez/pelipress
+- Add ``SHOW_HEADER`` setting from jjimenezlopez/pelipress
 - Merge
 `PR #88 <https://github.com/duilio/pelican-octopress-theme/pull/88>`_ -
 Add header images and background colors. Fixes
@@ -167,6 +168,25 @@ Header image or background color
 - ``header_color`` - header background color. Configure as article metadata
 - ``HEADER_COLOR`` - global header background color setting
 - ``SHOW_HEADER`` - set this to ``False`` to disable the entire header
+
+Custom footer
+-------------
+
+Define ``FOOTER_INCLUDE`` in ``pelicanconf.py`` to insert a custom footer text
+instead the default "Powered by Pelican". The value is a template path. You also
+need to define the ``EXTRA_TEMPLATES_PATHS`` setting. If your custom footer
+template is stored under the content ``PATH`` then Pelican will try to render
+it as regular HTML page and will most likely fail. To prevent Pelican from
+trying to render your custom footer add it to ``IGNORE_FILES``. Example::
+
+    FOOTER_INCLUDE = 'myfooter.html'
+    IGNORE_FILES = [FOOTER_INCLUDE]
+    EXTRA_TEMPLATES_PATHS = [os.path.dirname(__file__)]
+
+**WARNING:** avoid using names which duplicate existing templates from the
+theme directory, for example ``footer.html``. Due to how Pelican searches the
+template directories it will first find the files in the theme directory and you
+will not see the desired results!
 
 MailChimp
 --------------
