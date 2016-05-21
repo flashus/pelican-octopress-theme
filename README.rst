@@ -3,7 +3,56 @@ Octopress Theme for Pelican
 
 This is a theme for `Pelican`_ that looks like `Octopress`_ default theme. This
 is a fork of `pelican-octopress-theme by Maurizio Sambati`_ which merged all
-pending pull requests.
+pending pull requests from that repository and also merged new features from
+`pelipress by Jose Jimenez`_.
+
+Changelog
+---------
+
+- Merge
+`PR #88 <https://github.com/duilio/pelican-octopress-theme/pull/88>`_ -
+Add header images and background colors. Fixes
+`issue #52 <https://github.com/duilio/pelican-octopress-theme/issue/52>`
+- Merge
+`PR #87 <https://github.com/duilio/pelican-octopress-theme/pull/87>`_ -
+Update documentation. Fixes
+`issue #56 <https://github.com/duilio/pelican-octopress-theme/issue/56>`
+- Merge
+`PR #84 <https://github.com/duilio/pelican-octopress-theme/pull/84>`_ -
+add INDEX_FULL_CONTENT setting
+- Merge
+`PR #83 <https://github.com/duilio/pelican-octopress-theme/pull/84>`_ -
+load scripts before plugins that might use them
+- Merge
+`PR #82 <https://github.com/duilio/pelican-octopress-theme/pull/82>`_ -
+Add ``disqus_identifier`` article metadata. Fixes
+`issue #81 <https://github.com/duilio/pelican-octopress-theme/issue/81>`
+- Merge
+`PR #76 <https://github.com/duilio/pelican-octopress-theme/pull/76>`_ -
+add support for Mailchimp newsletter registrations
+- Merge
+`PR #73 <https://github.com/duilio/pelican-octopress-theme/pull/73>`_ -
+add ``ARCHIVE_TITLE`` setting
+- Merge
+`PR #72 <https://github.com/duilio/pelican-octopress-theme/pull/72>`_ -
+add support for Google AdSense in sidebar
+- Merge
+`PR #67 <https://github.com/duilio/pelican-octopress-theme/pull/67>`_ -
+improved sidebar control with ``AUTHOR_ABOUT``, ``DISPLAY_CATEGORIES``,
+``DISPLAY_TAGS`` and ``DISPLAY_FEEDS`` settings. ``SIDEBAR_IMAGE`` is
+only shown when ``AUTHOR_ABOUT`` is set!
+- Merge
+`PR #55 <https://github.com/duilio/pelican-octopress-theme/pull/55>`_ -
+add ``SHOW_ARTICLE_NEIGHBORS``, ``SHOW_DISQUS_COMMENT_COUNT``,
+``ARTICLE_ASIDES``, ``PAGE_ASIDES`` and ``INDEX_ASIDES`` settings
+- ``d6c3b15`` - fork from
+`duilio/pelican-octopress-theme <https://github.com/duilio/pelican-octopress-theme/commit/d6c3b15>`_
+
+Commercial support
+------------------
+
+`Mr. Senko <http://MrSenko.com>`_ provides commercial support for this and
+other open source libraries, should you need it!
 
 Why use this theme?
 -------------------
@@ -291,3 +340,4 @@ Authors
 .. _`Check the contributors`: https://github.com/duilio/pelican-octopress-theme/graphs/contributors
 .. _`Isso`: http://posativ.org/isso/
 .. _`pelican-octopress-theme by Maurizio Sambati`: https://github.com/duilio/pelican-octopress-theme
+.. _`pelipress by Jose Jimenez`: https://github.com/jjimenezlopez/pelipress
