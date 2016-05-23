@@ -12,50 +12,50 @@ Changelog
 21st May 2016
 
 - Add ``DISPLAY_SOCIAL_ICONS`` setting and the ``social_icons`` sidebar
-inspired by jjimenez/pelipress
+  inspired by jjimenez/pelipress
 - Add ``FOOTER_INCLUDE`` setting inspired by jjimenezlopez/pelipress
 - Add ``SHOW_HEADER`` setting from jjimenezlopez/pelipress
 
 18th May 2016
 
 - Merge
-`PR #88 <https://github.com/duilio/pelican-octopress-theme/pull/88>`_ -
-Add header images and background colors. Fixes
-`issue #52 <https://github.com/duilio/pelican-octopress-theme/issue/52>`
+  `PR #88 <https://github.com/duilio/pelican-octopress-theme/pull/88>`_ -
+  Add header images and background colors. Fixes
+  `issue #52 <https://github.com/duilio/pelican-octopress-theme/issue/52>`_
 - Merge
-`PR #87 <https://github.com/duilio/pelican-octopress-theme/pull/87>`_ -
-Update documentation. Fixes
-`issue #56 <https://github.com/duilio/pelican-octopress-theme/issue/56>`
+  `PR #87 <https://github.com/duilio/pelican-octopress-theme/pull/87>`_ -
+  Update documentation. Fixes
+  `issue #56 <https://github.com/duilio/pelican-octopress-theme/issue/56>`_
 - Merge
-`PR #84 <https://github.com/duilio/pelican-octopress-theme/pull/84>`_ -
-add INDEX_FULL_CONTENT setting
+  `PR #84 <https://github.com/duilio/pelican-octopress-theme/pull/84>`_ -
+  add INDEX_FULL_CONTENT setting
 - Merge
-`PR #83 <https://github.com/duilio/pelican-octopress-theme/pull/84>`_ -
-load scripts before plugins that might use them
+  `PR #83 <https://github.com/duilio/pelican-octopress-theme/pull/84>`_ -
+  load scripts before plugins that might use them
 - Merge
-`PR #82 <https://github.com/duilio/pelican-octopress-theme/pull/82>`_ -
-Add ``disqus_identifier`` article metadata. Fixes
-`issue #81 <https://github.com/duilio/pelican-octopress-theme/issue/81>`
+  `PR #82 <https://github.com/duilio/pelican-octopress-theme/pull/82>`_ -
+  Add ``disqus_identifier`` article metadata. Fixes
+  `issue #81 <https://github.com/duilio/pelican-octopress-theme/issue/81>`_
 - Merge
-`PR #76 <https://github.com/duilio/pelican-octopress-theme/pull/76>`_ -
-add support for Mailchimp newsletter registrations
+  `PR #76 <https://github.com/duilio/pelican-octopress-theme/pull/76>`_ -
+  add support for Mailchimp newsletter registrations
 - Merge
-`PR #73 <https://github.com/duilio/pelican-octopress-theme/pull/73>`_ -
-add ``ARCHIVE_TITLE`` setting
+  `PR #73 <https://github.com/duilio/pelican-octopress-theme/pull/73>`_ -
+  add ``ARCHIVE_TITLE`` setting
 - Merge
-`PR #72 <https://github.com/duilio/pelican-octopress-theme/pull/72>`_ -
-add support for Google AdSense in sidebar
+  `PR #72 <https://github.com/duilio/pelican-octopress-theme/pull/72>`_ -
+  add support for Google AdSense in sidebar
 - Merge
-`PR #67 <https://github.com/duilio/pelican-octopress-theme/pull/67>`_ -
-improved sidebar control with ``AUTHOR_ABOUT``, ``DISPLAY_CATEGORIES``,
-``DISPLAY_TAGS`` and ``DISPLAY_FEEDS`` settings. ``SIDEBAR_IMAGE`` is
-only shown when ``AUTHOR_ABOUT`` is set!
+  `PR #67 <https://github.com/duilio/pelican-octopress-theme/pull/67>`_ -
+  improved sidebar control with ``AUTHOR_ABOUT``, ``DISPLAY_CATEGORIES``,
+  ``DISPLAY_TAGS`` and ``DISPLAY_FEEDS`` settings. ``SIDEBAR_IMAGE`` is
+  only shown when ``AUTHOR_ABOUT`` is set!
 - Merge
-`PR #55 <https://github.com/duilio/pelican-octopress-theme/pull/55>`_ -
-add ``SHOW_ARTICLE_NEIGHBORS``, ``SHOW_DISQUS_COMMENT_COUNT``,
-``ARTICLE_ASIDES``, ``PAGE_ASIDES`` and ``INDEX_ASIDES`` settings
+  `PR #55 <https://github.com/duilio/pelican-octopress-theme/pull/55>`_ -
+  add ``SHOW_ARTICLE_NEIGHBORS``, ``SHOW_DISQUS_COMMENT_COUNT``,
+  ``ARTICLE_ASIDES``, ``PAGE_ASIDES`` and ``INDEX_ASIDES`` settings
 - ``d6c3b15`` - fork from
-`duilio/pelican-octopress-theme <https://github.com/duilio/pelican-octopress-theme/commit/d6c3b15>`_
+  `duilio/pelican-octopress-theme <https://github.com/duilio/pelican-octopress-theme/commit/d6c3b15>`_
 
 Commercial support
 ------------------
@@ -204,7 +204,7 @@ will not see the desired results!
 MailChimp
 --------------
 
-Add a [MailChimp](http://mailchimp.com/) registration form to the bottom of each article.
+Add a `MailChimp <http://mailchimp.com>`_ registration form to the bottom of each article.
 
 - ``MAILCHIMP_FORM_ACTION``: URL to be called when the submit button is pressed, required.
 - ``MAILCHIMP_EMAIL_PLACEHOLDER``: placeholder for the email form field, default "email@example.com"
@@ -306,7 +306,7 @@ the following metadata to each post:
                     shares.
 - ``twitter_site``: A Twitter handle, e.g. ``@getpelican`` for the owner
                     of the site.
-` ``twitter_creator``: A Twitter handle, e.g. ``@getpelican`` for the author
+- ``twitter_creator``: A Twitter handle, e.g. ``@getpelican`` for the author
                        of the post.
 
 In addition, you can provide a default post image (instead of setting
@@ -365,7 +365,7 @@ Authors
 .. _`Pelican`: http://getpelican.com
 .. _`Octopress`: http://octopress.org
 .. _`my personal blog`: http://blogs.skicelab.com/maurizio/
-.. _`the repository`: http://github.com/duilio/pelican-octopress-theme
+.. _`the repository`: http://github.com/MrSenko/pelican-octopress-theme
 .. _`Maurizio Sambati`: https://github.com/duilio
 .. _`Geoffrey Lehée`: https://github.com/socketubs
 .. _`Ekin Ertaç`: https://github.com/ekinertac
