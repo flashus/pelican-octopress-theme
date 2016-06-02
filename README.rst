@@ -9,6 +9,11 @@ pending pull requests from that repository and also merged new features from
 Changelog
 ---------
 
+2nd Jul 2016
+
+- Add support for article and page translations. Fixes
+  `issue #89 <https://github.com/duilio/pelican-octopress-theme/issues/89>`_
+
 21st May 2016
 
 - Add ``DISPLAY_SOCIAL_ICONS`` setting and the ``social_icons`` sidebar
