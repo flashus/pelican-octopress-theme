@@ -13,7 +13,9 @@ Changelog
 
 - Add support for ``SITE_KEYWORDS``. Fixes
   `issue #54 <https://github.com/duilio/pelican-octopress-theme/issues/54>`_
-
+- Update CSS style for rst footnote symbols so they appear as superscript text.
+  Fixes
+  `issue #26 <https://github.com/duilio/pelican-octopress-theme/issues/26>`_
 
 2nd Jun 2016
 
