@@ -9,7 +9,13 @@ pending pull requests from that repository and also merged new features from
 Changelog
 ---------
 
-2nd Jul 2016
+5th Jun 2016
+
+- Add support for ``SITE_KEYWORDS``. Fixes
+  `issue #54 <https://github.com/duilio/pelican-octopress-theme/issues/54>`_
+
+
+2nd Jun 2016
 
 - Add support for article and page translations. Fixes
   `issue #89 <https://github.com/duilio/pelican-octopress-theme/issues/89>`_
@@ -347,6 +353,12 @@ Neighboring Articles
 - ``SHOW_ARTICLE_NEIGHBORS``: set this to ``True`` to show "Previous Post" and
   "Next Post" bellow article content in the article pages. The ``neighbors``
   plugin is required for this feature.
+
+HTML Meta Tags
+--------------
+
+- ``SITE_KEYWORDS``: set this to a string which will be used in the HTML meta
+  tag for keywords.
 
 Contribute
 ----------
