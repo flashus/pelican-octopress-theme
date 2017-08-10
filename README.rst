@@ -9,6 +9,11 @@ pending pull requests from that repository and also merged new features from
 Changelog
 ---------
 
+10th Aug 2017
+
+- `PR #1 <https://github.com/MrSenko/pelican-octopress-theme/pull/1>`_
+  Add canonical url and OpenGraph metadata (by @Rassilion)
+
 5th Jun 2016
 
 - Add support for ``SITE_KEYWORDS``. Fixes
