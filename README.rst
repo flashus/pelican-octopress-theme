@@ -396,7 +396,7 @@ Authors
 .. _`Jake Vanderplas`: https://github.com/jakevdp
 .. _`Nicholas Terwoord`: https://github.com/nt3rp
 .. _`Mortada Mehyar`: https://github.com/mortada
-.. _`Check the contributors`: https://github.com/duilio/pelican-octopress-theme/graphs/contributors
+.. _`Check the contributors`: https://github.com/MrSenko/pelican-octopress-theme/graphs/contributors
 .. _`Isso`: http://posativ.org/isso/
 .. _`pelican-octopress-theme by Maurizio Sambati`: https://github.com/duilio/pelican-octopress-theme
 .. _`pelipress by Jose Jimenez`: https://github.com/jjimenezlopez/pelipress
